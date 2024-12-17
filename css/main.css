@@ -5,6 +5,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   font-family: 'Nanum Gothic', sans-serif;
+  height: 3000px;
 }
 img{
   display: block;
@@ -21,8 +22,11 @@ a{
 
 /* HEADER */
 header {
+  width: 100%;
+  /* position: relative; */
   background-color: #f6f5f0;
   border-bottom: 1px solid #c8c8c8;
+  position: fixed;
 }
 header > .inner {
   height: 120px;
@@ -159,4 +163,15 @@ header .main-menu .item .item__contents .contents__menu > ul > li ul li:hover {
 header .main-menu .item .item__contents .contents__texture{
   background-color: orange;
   height: 100px;
+}
+header .badges{
+  position: absolute;
+  top: 150px;
+  right: 12px;
+}
+header .badges .badge{
+  /* border-radius: 10px; */
+  overflow: hidden;
+  /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15); */
+  cursor: pointer;
 }
