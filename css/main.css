@@ -19,6 +19,7 @@ a{
   margin: 0 auto;
   position: relative;
 }
+/* BUTTON */
 .btn{
   width: 130px;
   padding: 10px;
@@ -76,6 +77,21 @@ a{
 .btn.btn--christmas:hover{
   color: #E62B35;
   background-color: #fff;
+}
+.btn.btn--sign-up{
+  color: #fff;
+  background-color: #00704A;
+}
+.btn.btn--sign-up:hover{
+  text-decoration: underline;
+}
+.btn.btn--transparent{
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn.btn--transparent:hover{
+  text-decoration: underline;
 }
 
 
@@ -453,3 +469,82 @@ header .badges .badge{
   background-color: #fff;
   color: #333;
 } 
+
+/* REWARDS */
+.rewards{
+  position: relative;
+}
+.rewards .bg-left{
+  width: 50%;
+  height: 100%;
+  background-color: #1E3932;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rewards .bg-right{
+  width: 50%;
+  height: 100%;
+  background-color: #1E3932;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+.rewards .inner{
+  height: 241px;
+  display: flex;
+  align-items: center;
+}
+.rewards .inner .logo{
+  margin-right: 20px;
+}
+.rewards .inner .logo img {
+  height: 152px;
+}
+.rewards .conts{
+  color: #fff;
+  width: 100%;
+}
+.rewards .conts h2{
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+.rewards .conts .info-cont_txt p {
+  font-size: 17px;
+}
+.rewards .conts .info-cont{
+  border-bottom: 1px solid rgb(75, 97, 91);
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.rewards .conts .info-cont_txt{
+  margin-bottom: 12px;
+}
+.rewards .conts .btn-group {
+  width: 193px;
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+}
+.rewards .conts .btn-group .sign-up{
+  width: 98px;
+}
+.rewards .conts .btn-group .sign-in {
+  width: 85px;
+  margin-left: 9px;
+}
+.rewards .conts .gift-cont{
+  font-size: 14px;
+  display: flex;
+  position: relative;
+}
+.rewards .conts .gift{
+  width: 233px;
+  height: 45px;
+  position: absolute;
+  right: 0;
+}
